@@ -1,0 +1,164 @@
+<footer id="footer" class="footer">
+    <h2 class="sr-only">Päta stránky</h2>
+
+    <div class="container footer-rows">
+
+        <div class="row custom-footer elements-4">
+
+            <!-- Kontakt -->
+            <div class="custom-footer__contact col-sm-6 col-lg-3">
+                <h3 class="pageElement__heading">
+                    <span>Kontakt</span>
+                </h3>
+                <div class="contact-box no-image" data-testid="contactbox">
+                    <ul>
+                        <li>
+                            <span class="mail" data-testid="contactboxEmail">
+                                <a href="mailto:m.habrova1@gmail.com">m.habrova1@gmail.com</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="tel">
+                                <a href="tel:+420607227782" aria-label="Zavolať na +420607227782" data-testid="contactboxPhone">
+                                    +420607227782
+                                </a>
+                            </span>
+                        </li>
+                        <li class="social-icon-list">
+                            <a href="https://www.facebook.com/premioveseno/" title="Facebook" target="_blank" class="social-icon facebook" data-testid="contactboxFacebook"></a>
+                        </li>
+                        <li class="social-icon-list">
+                            <a href="https://www.instagram.com/premioveseno/" title="Instagram" target="_blank" class="social-icon instagram" data-testid="contactboxInstagram"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "name": "Prémiové Seno",
+                    "url": "https://www.premioveseno.sk",
+                    "employee": "Martina Habrová",
+                    "email": "m.habrova1@gmail.com",
+                    "telephone": "+420607227782",
+                    "sameAs": ["https://www.facebook.com/premioveseno/", "https://www.instagram.com/premioveseno/"]
+                }
+                </script>
+            </div>
+
+            <!-- Informacie -->
+            <div class="custom-footer__articles col-sm-6 col-lg-3">
+                <h3 class="pageElement__heading">
+                    <span>Informácie pre vás</span>
+                </h3>
+                <ul>
+                    <li><a href="/doprava-a-platba/">Doprava a platba</a></li>
+                    <li><a href="/hodnoceni-obchodu/">Hodnotenie obchodu</a></li>
+                    <li><a href="/kontakty/">Kontakty</a></li>
+                    <li><a href="/obchodni-podminky/">Obchodné podmienky</a></li>
+                    <li><a href="/podminky-ochrany-osobnich-udaju/">Podmienky ochrany osobných údajov</a></li>
+                </ul>
+            </div>
+
+            <!-- Facebook widget -->
+            <div class="custom-footer__facebook col-sm-6 col-lg-3">
+                <div id="facebookWidget">
+                    <h3 class="pageElement__heading">
+                        <span>Facebook</span>
+                    </h3>
+                    <div id="fb-widget-wrap">
+                        <div class="fb-page"
+                             data-href="https://www.facebook.com/premioveseno"
+                             data-width="398"
+                             data-height="398"
+                             data-hide-cover="false"
+                             data-show-facepile="false"
+                             data-show-posts="false">
+                            <blockquote cite="https://www.facebook.com/premioveseno" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/premioveseno">Prémiové Seno</a>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <script>
+                        (function () {
+                            var isInstagram = /Instagram/i.test(navigator.userAgent || "");
+                            if (isInstagram) {
+                                var wrap = document.getElementById("fb-widget-wrap");
+                                if (wrap) {
+                                    wrap.innerHTML =
+                                        '<a href="https://www.facebook.com/premioveseno" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Facebook</a>';
+                                }
+                            }
+                        })();
+                    </script>
+                </div>
+            </div>
+
+            <!-- Posledne hodnotenia produktov -->
+            <div class="custom-footer__productRating col-sm-6 col-lg-3">
+                <h3 class="pageElement__heading">
+                    <span>Posledné hodnotenia produktov</span>
+                </h3>
+                <div class="rate-wrapper">
+                    <div class="votes-wrap simple-vote">
+                        <div class="vote-wrap" data-testid="gridRating">
+                            <a href="/premiove-seno-2kg-prvni-sec/">
+                                <div class="vote-header">
+                                    <span class="vote-pic">
+                                        <img src="https://cdn.myshoptet.com/usr/www.premioveseno.cz/user/shop/related/46-3_premiove-seno-2kg-prvni-sec.jpg?682f1726"
+                                             alt="Prémiové seno 2kg - první seč" width="60" height="60"
+                                             fetchpriority="low" loading="lazy">
+                                    </span>
+                                    <span class="vote-summary">
+                                        <span class="vote-product-name vote-product-name--nowrap">
+                                            Prémiové seno 2kg - první seč
+                                        </span>
+                                        <span class="vote-rating">
+                                            <span class="stars" data-testid="gridStars">
+                                                <span class="star star-on"></span>
+                                                <span class="star star-on"></span>
+                                                <span class="star star-on"></span>
+                                                <span class="star star-on"></span>
+                                                <span class="star star-on"></span>
+                                            </span>
+                                            <span class="vote-delimeter">|</span>
+                                            <span class="vote-name vote-name--nowrap" data-testid="textRatingAuthor">
+                                                <span>Marie Reitingerova</span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="vote-content" data-testid="textRating">
+                                    Objednávám opakovaně jelikož seno je kvalitní, zelené a žádná drť. Morčatum i králíkovi moc chutná
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer bottom s Softema -->
+    <div class="full-width footer-bottom-full-width">
+        <div class="container footer-bottom">
+            <span>
+                <span class="copyright" data-testid="textCopyright">
+                    Copyright 2026 <strong>Prémiové Seno</strong>. Všetky práva vyhradené.
+                </span>
+            </span>
+            <span id="signature" style="display: inline-block !important; visibility: visible !important;">
+                <a href="https://www.shoptet.cz/?utm_source=footer&utm_medium=link&utm_campaign=create_by_shoptet" class="image" target="_blank">
+                    <img src="https://cdn.myshoptet.com/prj/dist/master/cms/img/common/logo/shoptetLogo.svg"
+                         width="17" height="17" alt="Shoptet" class="vam" fetchpriority="low" loading="lazy">
+                </a>
+                <a href="https://www.shoptet.cz/?utm_source=footer&utm_medium=link&utm_campaign=create_by_shoptet" class="title" target="_blank">Vytvoril Shoptet</a>
+                a <a href="https://softema.cz/" target="_blank" rel="noopener noreferrer">Softema</a>
+            </span>
+        </div>
+    </div>
+
+</footer>
