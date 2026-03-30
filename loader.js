@@ -37,13 +37,13 @@
   document.addEventListener('DOMContentLoaded', function () {
 
     // 1. Banner "Oslňujúca chuť z horských lúk!"
-    injectAfter('#products-1', 'banner-hory.html');
+    // injectAfter('#products-1', 'banner-hory.html');
 
     // 2. Posledné komentáre
-    injectAfter('#products-2', 'posledne-komentare.html');
+    // injectAfter('#products-2', 'posledne-komentare.html');
 
     // 3. Posledné hodnotenia (za komentáre)
-    injectAfter('#products-2', 'posledne-hodnotenia.html');
+    // injectAfter('#products-2', 'posledne-hodnotenia.html');
 
     // 4. Welcome sekcia
     injectAfter('.homepage-latest-contribution-full-width', 'welcome-sekcia.html');
