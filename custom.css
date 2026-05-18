@@ -65,13 +65,7 @@
 
 /* --- Footer pozadie --- */
 #footer {
-    background-image: url('https://www.premioveseno.sk/user/documents/upload/verze1-2.png')
-
-<style>
-.p-code {
-    display: none !important;
-}
-</style>');
+    background-image: url('https://www.premioveseno.sk/user/documents/upload/verze1-2.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
