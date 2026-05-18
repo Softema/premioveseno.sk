@@ -65,7 +65,13 @@
 
 /* --- Footer pozadie --- */
 #footer {
-    background-image: url('/user/documents/upload/verze1-2.png');
+    background-image: url('<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Softema/premioveseno.sk@main/custom.css">
+
+<style>
+.p-code {
+    display: none !important;
+}
+</style>');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
